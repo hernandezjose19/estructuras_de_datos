@@ -15,8 +15,7 @@ class Pila():
     def pop(self):
 
         print(self.lista)
-        self.eliminando_ultimo = self.lista
-        del self.eliminando_ultimo[-1]
+        del self.lista[-1]
         print(self.lista)
 
 
